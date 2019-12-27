@@ -70,13 +70,11 @@ int main()
 		if (monthlyRainfall[count] >= 4.00)
 			outputFile << "\nRainfall of 4 inches or more occured in " << namesOfTheMonths[count] << endl;
 
-	cout << "\nProgrammer: " << name;
 	cout << "\nProcessing complete\n";
 	
 	outputFile.close();
 	inputFile.close();
 
-	system("pause");
 
 	return 0; //ends of main function
 }
